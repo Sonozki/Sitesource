@@ -96,9 +96,9 @@ Bindings=(Name="A",Command="StrafeLeft")
 Bindings=(Name="D",Command="StrafeRight")
 Bindings=(Name="MouseX",Command="Count bXAxis | Axis aMouseX")
 Bindings=(Name="MouseY",Command="Count bYAxis | Axis aMouseY")
-```
-Inside `[SFXGame.SFXGameModeDefault]` place the lines
-```
+
+Inside [SFXGame.SFXGameModeDefault] place the lines
+
 Bindings=(Name="Add",Command="PlayersOnly | ToggleFlycam | Show Scaleform" )
 Bindings=(Name="MoveUp",Command="Axis aUp Speed=0.2")
 Bindings=(Name="MoveDown",Command="Axis aUp Speed=-0.2")
@@ -115,13 +115,13 @@ Bindings=(Name="A",Command="StrafeLeft")
 Bindings=(Name="D",Command="StrafeRight")
 Bindings=(Name="MouseX",Command="Count bXAxis | Axis aMouseX")
 Bindings=(Name="MouseY",Command="Count bYAxis | Axis aMouseY")
-```
-Inside `[SFXGame.SFXGameModeVehicle]` place the lines
-```
+
+Inside [SFXGame.SFXGameModeVehicle] place the lines
+
 Bindings=(Name="Add",Command="PlayersOnly | ToggleFlycam | Show Scaleform" )
-```
-Within the section `[SFXGame.SFXGameModeConversation]` add
-```
+
+Within the section [SFXGame.SFXGameModeConversation] add
+
 Bindings=(Name="Add",Command="PlayersOnly | ToggleFlycam | Show Scaleform" )
 Bindings=(Name="MoveUp",Command="Axis aUp Speed=0.2")
 Bindings=(Name="MoveDown",Command="Axis aUp Speed=-0.2")
